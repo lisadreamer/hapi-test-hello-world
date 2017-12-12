@@ -1,0 +1,23 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "First hapiJs example",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -a code -t 100 -L -v",
+    "test-coverage": "lab -c -a code -r html -o coverage/coverage.html"
+  },
+  "author": "Patrick Meier",
+  "license": "ISC",
+  "dependencies": {
+    "good": "^7.0.1",
+    "good-console": "^6.1.2",
+    "good-squeeze": "^3.0.1",
+    "hapi": "^13.4.1",
+    "labbable": "^1.0.0"
+  },
+  "devDependencies": {
+    "code": "^3.0.1",
+    "lab": "^10.8.2"
+  }
+}
